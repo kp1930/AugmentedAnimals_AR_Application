@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Animals</string>
+    <string name="app_name">Augmented Animals</string>
     <string name="img_bear">TODO</string>
     <string name="img_cat">TODO</string>
     <string name="img_cow">TODO</string>
