@@ -1,5 +1,18 @@
 <resources>
 
     <string name="app_name">Animals</string>
+    <string name="img_bear">TODO</string>
+    <string name="img_cat">TODO</string>
+    <string name="img_cow">TODO</string>
+    <string name="img_dog">TODO</string>
+    <string name="img_elephant">TODO</string>
+    <string name="img_ferret">TODO</string>
+    <string name="img_hippopotamus">TODO</string>
+    <string name="img_horse">TODO</string>
+    <string name="img_koala_bear">TODO</string>
+    <string name="img_lion">TODO</string>
+    <string name="img_reindeer">TODO</string>
+    <string name="img_wolverine">TODO</string>
+    <string name="animal">Animal</string>
 
 </resources>

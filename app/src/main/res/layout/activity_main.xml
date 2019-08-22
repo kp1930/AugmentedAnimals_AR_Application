@@ -1,11 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <fragment
+        android:id="@+id/arFragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="ScrollViewSize">
+
+            <ImageView
+                android:id="@+id/bear"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_bear"
+                android:src="@drawable/bear" />
+
+            <ImageView
+                android:id="@+id/cat"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_cat"
+                android:src="@drawable/cat" />
+
+            <ImageView
+                android:id="@+id/cow"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_cow"
+                android:src="@drawable/cow" />
+
+            <ImageView
+                android:id="@+id/dog"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_dog"
+                android:src="@drawable/dog" />
+
+            <ImageView
+                android:id="@+id/elephant"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_elephant"
+                android:src="@drawable/elephant" />
+
+            <ImageView
+                android:id="@+id/ferret"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_ferret"
+                android:src="@drawable/ferret" />
+
+            <ImageView
+                android:id="@+id/hippopotamus"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_hippopotamus"
+                android:src="@drawable/hippopotamus" />
+
+            <ImageView
+                android:id="@+id/horse"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_horse"
+                android:src="@drawable/horse" />
+
+            <ImageView
+                android:id="@+id/koala_bear"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_koala_bear"
+                android:src="@drawable/koala_bear" />
+
+            <ImageView
+                android:id="@+id/lion"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_lion"
+                android:src="@drawable/lion" />
+
+            <ImageView
+                android:id="@+id/reindeer"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_reindeer"
+                android:src="@drawable/reindeer" />
+
+            <ImageView
+                android:id="@+id/wolverine"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/img_wolverine"
+                android:src="@drawable/wolverine" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</FrameLayout>
