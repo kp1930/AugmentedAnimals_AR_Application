@@ -1,4 +1,4 @@
-package com.theblackdiamonds.animals;
+package com.theblackdiamonds.augmentedanimals;
 
 import android.graphics.Color;
 import android.os.Bundle;
